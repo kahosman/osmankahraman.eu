@@ -1,6 +1,7 @@
 .title-bar-div {
   padding: 0.75rem 1rem;
-  background-color: var(--accent-blue);
+  background: #0067FE;
+  background: linear-gradient(0deg,rgba(0, 103, 254, 1) 6%, rgba(0, 76, 207, 1) 58%, rgba(0, 75, 204, 1) 86%, rgba(0, 103, 254, 1) 100%);
   color: var(--secondary-text-color);
 }
 
@@ -67,6 +68,16 @@ nav {
   text-align: left;
   font-weight: 100;
   font-size: 1.33rem;
+}
+
+.nav-search-bar-input{
+  margin-right: 5vw;
+
+  width: 6em;
+  padding: 0.1em 1em;
+
+  font-family: VT323;
+  font-size: 1.25rem;
 }
 
 .tab-accent-line-span{
