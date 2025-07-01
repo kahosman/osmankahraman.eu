@@ -11,14 +11,14 @@ function Header(props) {
   return (
     <header>
       <div className="title-bar-div">
-        <h2 className="title-bar-h2">{currentPage} - Osman Kahraman</h2>
+        <i class='bx  bx-globe-alt'  ></i><h2 className="title-bar-h2">{currentPage} - Osman Kahraman</h2>
       </div>
       <nav>
         <div className="nav-top-row-div">
           <NavLink to="/" end><button className="nav-button">Home</button></NavLink>
           <NavLink to="/bio" end><button className="nav-button">Bio</button></NavLink>
           <NavLink to="/work" end><button className="nav-button">Work</button></NavLink>
-          <NavLink to="/projects" end><button className="nav-button">Projects</button></NavLink>
+          <NavLink to="/" end><button className="nav-button">Projects</button></NavLink>
         </div>
         <div className="nav-bottom-row-div">
           <span className="current-tab-span">{currentPage}</span>

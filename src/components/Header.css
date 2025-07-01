@@ -1,8 +1,17 @@
 .title-bar-div {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5em;
+
   padding: 0.75rem 1rem;
   background: #0067FE;
   background: linear-gradient(0deg,rgba(0, 103, 254, 1) 6%, rgba(0, 76, 207, 1) 58%, rgba(0, 75, 204, 1) 86%, rgba(0, 103, 254, 1) 100%);
   color: var(--secondary-text-color);
+}
+
+.title-bar-div .bx{
+font-size: 1.5em;
 }
 
 nav {
