@@ -11,11 +11,15 @@ function Home() {
         <img className="profile-img" src={profilePicture} />
       </div>
       <section>
+        <p>I am 23 years old and currently an apprentice software developer.</p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          luctus, elit nec lobortis tincidunt, enim purus porta ligula, in
-          pellentesque ipsum tortor id erat. Curabitur egestas fermentum
-          facilisis. Aliquam commodo finibus lectus.
+          My current goal is to acquire a solid professional foundation for the
+          beginning of my career. This includes learning more programming
+          languages, doing software projects and expanding my theoretical
+          knowledge.
+        </p>
+        <p>
+          I spend a lot of time reading up on natural sciences, current research, technology, history and philosophy.
         </p>
       </section>
     </main>
