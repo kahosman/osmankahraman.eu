@@ -49,16 +49,36 @@ main h3 {
   margin: 1em 0;
 }
 
+.main-list-section h3{
+  margin-bottom: 0.5em;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 main ul{
   margin: 0.25em 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 main li{
   list-style: none;
 }
 
+
+.bio-list-item-div{
+  display: flex;
+  margin-bottom: 0.75em;
+}
+
+.bio-list-item-div p{
+  margin: 0;
+}
+
+.bio-list-date-p{
+  min-width: 45vw
+}
 
 .projects-tags-div{
     display: flex;
