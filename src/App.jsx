@@ -1,31 +1,25 @@
 import { useState } from "react";
-
-import Header  from "./components/Header";
+import { Routes, Route, useLocation } from "react-router";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Biography from "./components/Biography";
+import Work from "./components/Work";
+import Projects from "./components/Projects";
 import "./App.css";
-
-import profilePicture from "./assets/images/23.jpg"
 
 function App() {
   const [count, setCount] = useState(0);
-
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <>
-      <Header />
-      <main>
-        <div className="home-head-div">
-          <div className="name-div">
-            <h1>Osman Kahraman</h1>
-            <h3>Junior Softwaredeveloper</h3>
-          </div>
-          <img className="profile-img" src={profilePicture}/>
-        </div>
-        <section>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          luctus, elit nec lobortis tincidunt, enim purus porta ligula, in
-          pellentesque ipsum tortor id erat. Curabitur egestas fermentum
-          facilisis. Aliquam commodo finibus lectus.
-        </section>
-      </main>
+      <Header currentPage={location.pathname} />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/bio" element={<Biography />} />
+        <Route exact path="/work" element={<Work />} />
+        <Route exact path="/projects" element={<Projects />} />
+      </Routes>
     </>
   );
 }

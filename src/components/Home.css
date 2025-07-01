@@ -1,0 +1,19 @@
+.home-head-div {
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  max-width: 92.5vw;
+  min-height: 50vw;
+}
+.name-div {
+  max-width: 45vw;
+  margin: 0;
+}
+
+.profile-img {
+  min-width: 33vw;
+  height: 50vw;
+  object-fit: cover;
+}
