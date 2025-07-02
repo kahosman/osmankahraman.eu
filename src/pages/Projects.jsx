@@ -1,4 +1,4 @@
-import ProjectElement from "./ProjectElement";
+import ProjectElement from "/src/components/ProjectElement";
 //import "./Projects.css"
 function Projects() {
   return (

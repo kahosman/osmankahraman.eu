@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Routes, Route, useLocation } from "react-router";
 import Header from "./components/Header";
-import Home from "./components/Home";
-import Biography from "./components/Biography";
-import Work from "./components/Work";
-import Projects from "./components/Projects";
+import Home from "./pages/Home";
+import Biography from "./pages/Biography";
+import Work from "./pages/Work";
+import Projects from "./pages/Projects";
 import "./App.css";
 
 function App() {
