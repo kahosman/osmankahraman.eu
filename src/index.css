@@ -39,6 +39,10 @@ main h1 {
   letter-spacing: 0px;
 }
 
+main h2{
+  font-weight: 500;
+}
+
 main h3 {
   margin: 0;
   font-size: 1.25rem;
@@ -78,6 +82,10 @@ main li{
 
 .bio-list-date-p{
   min-width: 45vw
+}
+
+.project-section{
+  margin-bottom: 2em;
 }
 
 .projects-tags-div{
