@@ -85,6 +85,23 @@ main li{
   min-width: 45vw
 }
 
+.skill-list-div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-item-div{
+  width: 42vw;
+}
+
+.skill-list-div p{
+  margin: 0;
+}
+
+
+
+
+
 .project-section{
   margin-bottom: 2em;
 }
