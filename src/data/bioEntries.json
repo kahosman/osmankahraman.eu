@@ -1,0 +1,73 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "title": "Extended Secondary School Certificate",
+      "shortTitle": "Secondary School",
+      "orgName": "Oberschule Ofenderdiek",
+      "startDate": "09.2012",
+      "endDate": "06.2018",
+      "originalName": "Erweiterte Sekundarabschluss I",
+      "location": "Oldenburg (Oldb), Germany",
+      "finalGrade": 2.1,
+      "eqfLevel": 3
+    },
+    {
+      "id": 2,
+      "title": "General Qualification for University Entrance",
+      "shortTitle": "High School",
+      "orgName": "Berufliches Gymnasium Technik an dem Bildungszentrum für Technik und Gestaltung der Stadt Oldenburg",
+      "startDate": "08.2018",
+      "endDate": "07.2021",
+      "originalName": "Allgemeine Hochschulreife",
+      "location": "Oldenburg (Oldb), Germany",
+      "finalGrade": 2.8,
+      "eqfLevel": 4
+    },
+    {
+      "id": 4,
+      "title": "Bachelor of Science, Physics (no degree acquired)",
+      "shortTitle": "B.Sc. Physics (w/o degree)",
+      "orgName": "Carl von Ossietzky Universität Oldenburg",
+      "startDate": "10.2022",
+      "endDate": "01.2025",
+      "originalName": "Bachelor of Science, Physik",
+      "location": "Oldenburg (Oldb), Germany",
+      "eqfLevel": 6
+    },
+    {
+      "id": 6,
+      "title": "Apprenticeship as a Software Developer",
+      "shortTitle": "Software Developer Apprenticeship",
+      "orgName": "FAMO GmbH & Co. KG",
+      "startDate": "08.2025",
+      "endDate": "ongoing",
+      "originalName": "Ausbildung als Fachinformatiker in der Anwendungsentwicklung",
+      "location": "Oldenburg (Oldb), Germany",
+      "eqfLevel": 4
+    }
+
+  ],
+  "professional": [
+    {
+      "id": 3,
+      "title": "Quick Service Sestaurant Crew Member",
+      "shortTitle": "Food Service Worker",
+      "orgName": "MONTI Systems IV GmbH & Co. KG",
+      "startDate": "09.2021",
+      "endDate": "04.2022",
+      "originalName": "Mitarbeiter im Restaurant",
+      "location": "Oldenburg (Oldb), Germany"
+    },
+    {
+      "id": 5,
+      "title": "Software Developer position before my apprenticeship",
+      "shortTitle": "Junior Software Developer",
+      "orgName": "FAMO GmbH & Co. KG",
+      "startDate": "02.2025",
+      "endDate": "07.2025",
+      "originalName": "Mitarbeiter in der IT",
+      "location": "Oldenburg (Oldb), Germany"
+    }
+  ]
+}
