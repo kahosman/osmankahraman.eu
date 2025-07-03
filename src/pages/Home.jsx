@@ -4,11 +4,13 @@ function Home() {
   return (
     <main>
       <div className="home-head-div">
-        <div className="name-div">
+        <div className="home-name-div">
           <h1>Osman Kahraman</h1>
           <h3>Junior Softwaredeveloper</h3>
         </div>
-        <img className="profile-img" src={profilePicture} />
+        <div className="home-image-div">
+          <img className="profile-img" src={profilePicture} />
+        </div>
       </div>
       <section>
         <p>I am 23 years old and currently an apprentice software developer.</p>

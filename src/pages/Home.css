@@ -4,16 +4,21 @@
   align-items: center;
   gap: 1em;
 
-  max-width: 92.5vw;
-  min-height: 50vw;
+  width: 100%;
 }
-.name-div {
-  max-width: 45vw;
+
+.home-name-div {
+  width: 60%;
   margin: 0;
 }
 
-.profile-img {
-  min-width: 33vw;
-  height: 50vw;
+.home-image-div{
+  height: 100%;
+  width: 40%;
   object-fit: cover;
+}
+
+.profile-img {
+  height: 100%;
+  width: 100%;
 }
