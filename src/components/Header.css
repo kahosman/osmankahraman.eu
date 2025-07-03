@@ -64,10 +64,10 @@ nav {
   margin-bottom: -5px;
   align-self: flex-end;
   justify-self: center;
-  padding: 0.25em 0em 0.25em 0.4em;
+  padding: 0.25em 0.4em 0.25em 0.4em;
 
-  width: 33vw;
-  min-width: 4.75em;
+  width: 7rem;
+  min-width: max-content;
   background: #f2f7fb;
   background: linear-gradient(
     0deg,
