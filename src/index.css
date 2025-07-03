@@ -141,21 +141,32 @@ main li{
 }
 
 .skill-list-div{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  row-gap: 0.75em;
+  column-gap: 2em;
 }
 
 .skill-item-div{
-  width: 42vw;
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
 }
 
 .skill-list-div p{
+  text-wrap: wrap;
   margin: 0;
 }
 
+.skill-icon{
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+}
 
-
-
+.skill-list-h3{
+  margin-top: 1.5em;
+}
 
 .project-section{
   margin-bottom: 2em;
@@ -167,9 +178,6 @@ main li{
     gap: 0.5em;
 }
 
-.project-section p{
-  font-size: 0.85rem;
-}
 
 .project-img{
   width: 85vw;
@@ -179,4 +187,10 @@ main li{
 
 p{
   text-align: left;
+}
+
+@media (min-width: 200px) {
+  p{
+    font-size: 1.25em;
+  }
 }

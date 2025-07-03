@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "title": "Python",
+    "type": "Languages",
+    "level": 4,
+    "icon": "python.svg"
+  },
+  {
+    "id": 2,
+    "title": "PHP",
+    "type": "Languages",
+    "level": 3,
+    "icon": "php-elephpant.svg"
+  },
+  {
+    "id": 3,
+    "title": "Intersystems Objectscript",
+    "type": "Languages",
+    "level": 4,
+    "icon": "objectscript.svg"
+  },
+  {
+    "id": 4,
+    "title": "Java",
+    "type": "Languages",
+    "level": 3,
+    "icon": "java.svg"
+  },
+  {
+    "id": 5,
+    "title": "C#",
+    "type": "Languages",
+    "level": 2,
+    "icon": "c-sharp.svg"
+  },
+  {
+    "id": 6,
+    "title": "C",
+    "type": "Languages",
+    "level": 2,
+    "icon": ""
+  },
+  {
+    "id": 7,
+    "title": "C++",
+    "type": "Languages",
+    "level": 2,
+    "icon": "c-plusplus.svg"
+  },
+  {
+    "id": 8,
+    "title": "MATLAB",
+    "type": "Languages",
+    "level": 2,
+    "icon": "matlab_Logo.png"
+  },
+  {
+    "id": 9,
+    "title": "React",
+    "type": "Frameworks & Libraries",
+    "level": 3,
+    "icon": "react.svg"
+  },
+  {
+    "id": 10,
+    "title": "FastAPI",
+    "type": "Frameworks & Libraries",
+    "level": 4,
+    "icon": "fastapi-icon.svg"
+  },
+  {
+    "id": 11,
+    "title": "Apache Airflow",
+    "type": "Frameworks & Libraries",
+    "level": 3,
+    "icon": "airflow-icon.svg"
+  },
+  {
+    "id": 12,
+    "title": "Quarkus",
+    "type": "Frameworks & Libraries",
+    "level": 3,
+    "icon": "quarkus-icon.svg"
+  },
+  {
+    "id": 13,
+    "title": "git",
+    "type": "Tools",
+    "level": 4,
+    "icon": "git-icon.svg"
+  },
+  {
+    "id": 14,
+    "title": "Postman",
+    "type": "Tools",
+    "level": 5,
+    "icon": "postman-icon.svg"
+  },
+  {
+    "id": 15,
+    "title": "Github",
+    "type": "Tools",
+    "level": 4,
+    "icon": "github-icon.svg"
+  },
+  {
+    "id": 16,
+    "title": "VS Code",
+    "type": "Tools",
+    "level": 4,
+    "icon": "visual-studio-code.svg"
+  },
+  {
+    "id": 17,
+    "title": "JavaScript",
+    "type": "Languages",
+    "level": 4,
+    "icon": "javascript.svg"
+  }
+]
