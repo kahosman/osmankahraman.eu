@@ -33,11 +33,12 @@ function App() {
         classIconString = "bxs-folder-code";
         break;
     }
-
+    document.body.style.overflow = "hidden"
     tabLoadingIconEl.setAttribute("class", "");
     tabLoadingIconEl.classList.add("bx", "bx-loader-dots");
 
     const timer = setTimeout(() => {
+      document.body.style.overflow = "visible"
       tabLoadingIconEl.setAttribute("class", "");
       tabLoadingIconEl.classList.add("bx", classIconString);
       setLoading(false);
