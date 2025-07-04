@@ -41,6 +41,7 @@ function Work() {
   const sortedEntries = getSortedEntries();
   return (
     <main>
+      <title>Work</title>
       <h1>Software Development</h1>
       <section className="main-list-section">
         {Object.keys(sortedEntries).map((type) =>

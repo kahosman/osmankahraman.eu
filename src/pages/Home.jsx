@@ -3,6 +3,7 @@ import profilePicture from "/src/assets/images/23.jpg";
 function Home() {
   return (
     <main>
+      <title>Osman Kahraman</title>
       <div className="home-head-div">
         <div className="home-name-div">
           <h1>Osman Kahraman</h1>

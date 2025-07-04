@@ -5,6 +5,7 @@ function Biography() {
   const professionalEntries = bioEntries.professional
   return (
     <main>
+      <title>Biography</title>
       <h1>Biography</h1>
       <section className="main-list-section">
         <h3>Education</h3>

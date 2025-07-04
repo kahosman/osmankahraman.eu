@@ -3,6 +3,7 @@ import projectEntries from "/src/data/projectEntries.json";
 function Projects() {
   return (
     <main>
+      <title>Projects</title>
       <h1>Projects</h1>
       {projectEntries.map((entry) => (
         <ProjectElement
