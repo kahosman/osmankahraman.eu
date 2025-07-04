@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Biography from "./pages/Biography";
 import Work from "./pages/Work";
 import Projects from "./pages/Projects";
+import Skill from "./pages/Skill";
 import "./App.css";
 
 function App() {
@@ -45,8 +46,8 @@ function App() {
     return () => clearTimeout(timer);
   }, [location]);
   return (
-    <>
-      <Header currentPage={location.pathname} isLoading={loading} />
+   <>      
+   <Header currentPage={location.pathname} isLoading={loading} />
       {loading && (
         <div className="loading-click-block">
           <div className="loading-overlay">
@@ -58,7 +59,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/bio" element={<Biography />} />
-        <Route exact path="/work" element={<Work />} />
+        <Route path="work" element={<Work/>} />
+        <Route path="work/*" element={<Skill />} />
         <Route exact path="/projects" element={<Projects />} />
       </Routes>
     </>

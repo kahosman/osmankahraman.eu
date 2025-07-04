@@ -27,6 +27,7 @@ function getSkillList(entries, skillType) {
         {entries.map((entry) => (
           <SkillElement
             key={entry.id}
+            name={entry.name}
             title={entry.title}
             icon={entry.icon}
             skillLevel={entry.level}
