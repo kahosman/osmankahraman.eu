@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "name": "python",
     "title": "Python",
     "type": "Languages",
     "level": 4,
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "name": "php",
     "title": "PHP",
     "type": "Languages",
     "level": 3,
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "name": "objectscript",
     "title": "Intersystems Objectscript",
     "type": "Languages",
     "level": 4,
@@ -22,6 +25,7 @@
   },
   {
     "id": 4,
+    "name": "java",
     "title": "Java",
     "type": "Languages",
     "level": 3,
@@ -29,6 +33,7 @@
   },
   {
     "id": 5,
+    "name": "csharp",
     "title": "C#",
     "type": "Languages",
     "level": 2,
@@ -36,6 +41,7 @@
   },
   {
     "id": 6,
+    "name": "c",
     "title": "C",
     "type": "Languages",
     "level": 2,
@@ -43,6 +49,7 @@
   },
   {
     "id": 7,
+    "name": "cplusplus",
     "title": "C++",
     "type": "Languages",
     "level": 2,
@@ -50,6 +57,7 @@
   },
   {
     "id": 8,
+    "name": "matlab",
     "title": "MATLAB",
     "type": "Languages",
     "level": 2,
@@ -57,6 +65,7 @@
   },
   {
     "id": 9,
+    "name": "react",
     "title": "React",
     "type": "Frameworks & Libraries",
     "level": 3,
@@ -64,6 +73,7 @@
   },
   {
     "id": 10,
+    "name": "fastapi",
     "title": "FastAPI",
     "type": "Frameworks & Libraries",
     "level": 4,
@@ -71,6 +81,7 @@
   },
   {
     "id": 11,
+    "name": "airflow",
     "title": "Apache Airflow",
     "type": "Frameworks & Libraries",
     "level": 3,
@@ -78,6 +89,7 @@
   },
   {
     "id": 12,
+    "name": "quarkus",
     "title": "Quarkus",
     "type": "Frameworks & Libraries",
     "level": 3,
@@ -85,6 +97,7 @@
   },
   {
     "id": 13,
+    "name": "git",
     "title": "git",
     "type": "Tools",
     "level": 4,
@@ -92,6 +105,7 @@
   },
   {
     "id": 14,
+    "name": "postman",
     "title": "Postman",
     "type": "Tools",
     "level": 5,
@@ -99,6 +113,7 @@
   },
   {
     "id": 15,
+    "name": "github",
     "title": "Github",
     "type": "Tools",
     "level": 4,
@@ -106,6 +121,7 @@
   },
   {
     "id": 16,
+    "name": "vscode",
     "title": "VS Code",
     "type": "Tools",
     "level": 4,
@@ -113,6 +129,7 @@
   },
   {
     "id": 17,
+    "name": "javascript",
     "title": "JavaScript",
     "type": "Languages",
     "level": 4,
